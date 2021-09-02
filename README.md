@@ -2,7 +2,7 @@
 
 [![Build status](https://github.com/rubensworks/solid-client-authn-isomorphic.js/workflows/CI/badge.svg)](https://github.com/rubensworks/solid-client-authn-isomorphic.js/actions?query=workflow%3ACI)
 [![Coverage Status](https://coveralls.io/repos/github/rubensworks/solid-client-authn-isomorphic.js/badge.svg?branch=master)](https://coveralls.io/github/rubensworks/solid-client-authn-isomorphic.js?branch=master)
-[![npm version](https://badge.fury.io/js/solid-client-authn-isomorphic.svg)](https://www.npmjs.com/package/solid-client-authn-isomorphic)
+[![npm version](https://badge.fury.io/js/@rubensworks%2Fsolid-client-authn-isomorphic.svg)](https://www.npmjs.com/package/@rubensworks/solid-client-authn-isomorphic)
 
 Handle authentication in an isomorphic manner so that it works in both Node.js and browsers.
 
