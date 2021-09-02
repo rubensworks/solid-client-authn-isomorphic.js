@@ -1,5 +1,6 @@
 {
   "name": "@rubensworks/solid-client-authn-isomorphic",
+  "private": false,
   "version": "1.0.0",
   "description": "Isomorphic version of @inrupt/solid-client-authn-node and @inrupt/solid-client-authn-browser",
   "keywords": [
