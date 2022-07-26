@@ -76,8 +76,8 @@
     "version": "manual-git-changelog onversion"
   },
   "dependencies": {
-    "@inrupt/solid-client-authn-browser": "^1.11.2",
-    "@inrupt/solid-client-authn-core": "^1.11.2",
-    "@inrupt/solid-client-authn-node": "^1.11.2"
+    "@inrupt/solid-client-authn-browser": "^1.12.1",
+    "@inrupt/solid-client-authn-core": "^1.12.1",
+    "@inrupt/solid-client-authn-node": "^1.12.1"
   }
 }
