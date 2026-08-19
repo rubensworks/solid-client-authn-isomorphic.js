@@ -13,7 +13,10 @@
     "inlineSources": true,
     "declaration": true,
     "importHelpers": false,
-    "strict": true
+    "strict": true,
+    "types": [
+      "jest"
+    ]
   },
   "include": [
     "index.ts",
