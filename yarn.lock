@@ -491,20 +491,6 @@
     jose "^6.2.3"
     uuid "^14.0.0"
 
-"@inrupt/solid-client-authn-core@^1.12.1":
-  version "1.12.1"
-  resolved "https://registry.npmjs.org/@inrupt/solid-client-authn-core/-/solid-client-authn-core-1.12.1.tgz"
-  integrity sha512-Pneh+jMls/R0I0MTZTTjJq4zjQ5OwNP0shE+p9WHQEviwBMZYCuiLN5jQGKLe0b39Nie0c+6KdYJ0xZPleUB4w==
-  dependencies:
-    "@inrupt/solid-common-vocab" "^1.0.0"
-    "@types/lodash.clonedeep" "^4.5.6"
-    "@types/uuid" "^8.3.0"
-    cross-fetch "^3.1.5"
-    events "^3.3.0"
-    jose "^4.3.7"
-    lodash.clonedeep "^4.5.0"
-    uuid "^8.3.1"
-
 "@inrupt/solid-client-authn-core@^5.0.0":
   version "5.0.0"
   resolved "https://registry.yarnpkg.com/@inrupt/solid-client-authn-core/-/solid-client-authn-core-5.0.0.tgz#e15f5f6630673c2d3418bafbf555567c0e91af96"
@@ -514,21 +500,15 @@
     jose "^6.2.3"
     uuid "^14.0.0"
 
-"@inrupt/solid-client-authn-node@^1.12.1":
-  version "1.12.1"
-  resolved "https://registry.npmjs.org/@inrupt/solid-client-authn-node/-/solid-client-authn-node-1.12.1.tgz"
-  integrity sha512-1kUAfEDN8cwb1DF+RuOREck8gz8zEhKJ2xZeaR9mJBFSEnkEPr0MV4r7wWeBVhAE5xWIMkHUKnYlEWD6daxNjg==
+"@inrupt/solid-client-authn-node@^5.0.0":
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/@inrupt/solid-client-authn-node/-/solid-client-authn-node-5.0.0.tgz#dd5bb75128a4d9cd01727cad9bebfeb45672190b"
+  integrity sha512-+UyG/KSHQPSEyP31g5BjimtEVUH8unlzfqz2F2v4u4ptxbcS8jEuc4bjTHgNMo6XMBiTN8fO0JyAJm6q4WvkpA==
   dependencies:
-    "@inrupt/solid-client-authn-core" "^1.12.1"
-    cross-fetch "^3.1.5"
-    jose "^4.3.7"
-    openid-client "^5.1.0"
-    uuid "^8.3.2"
-
-"@inrupt/solid-common-vocab@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.npmjs.org/@inrupt/solid-common-vocab/-/solid-common-vocab-1.0.0.tgz"
-  integrity sha512-LcImhJqqPsNl/OlULzEEK2rYevty0eh1zaOLVz3lnydEU1DQkeaJ8fKBxKdp5/QjCtnIYcaDjh5U11PGh29Dgg==
+    "@inrupt/solid-client-authn-core" "^5.0.0"
+    jose "^6.2.3"
+    openid-client "^5.7.1"
+    uuid "^14.0.0"
 
 "@isaacs/cliui@^8.0.2":
   version "8.0.2"
@@ -1091,18 +1071,6 @@
   resolved "https://registry.yarnpkg.com/@types/json5/-/json5-0.0.29.tgz#ee28707ae94e11d2b827bcbe5270bcea7f3e71ee"
   integrity sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==
 
-"@types/lodash.clonedeep@^4.5.6":
-  version "4.5.6"
-  resolved "https://registry.npmjs.org/@types/lodash.clonedeep/-/lodash.clonedeep-4.5.6.tgz"
-  integrity sha512-cE1jYr2dEg1wBImvXlNtp0xDoS79rfEdGozQVgliDZj1uERH4k+rmEMTudP9b4VQ8O6nRb5gPqft0QzEQGMQgA==
-  dependencies:
-    "@types/lodash" "*"
-
-"@types/lodash@*":
-  version "4.14.172"
-  resolved "https://registry.npmjs.org/@types/lodash/-/lodash-4.14.172.tgz"
-  integrity sha512-/BHF5HAx3em7/KkzVKm3LrsD6HZAXuXO1AJZQ3cRRBZj4oHZDviWPYu0aEplAqDFNHZPW6d3G7KN+ONcCCC7pw==
-
 "@types/mdast@^3.0.0":
   version "3.0.15"
   resolved "https://registry.yarnpkg.com/@types/mdast/-/mdast-3.0.15.tgz#49c524a263f30ffa28b71ae282f813ed000ab9f5"
@@ -1141,11 +1109,6 @@
   version "2.0.11"
   resolved "https://registry.yarnpkg.com/@types/unist/-/unist-2.0.11.tgz#11af57b127e32487774841f7a4e54eab166d03c4"
   integrity sha512-CmBKiL6NNo/OqgmMn95Fk9Whlp2mtvIv+KNpQKN2F4SjvrEesubTRWGYSg+BnWZOnlCaSTU1sMpsBOzgbYhnsA==
-
-"@types/uuid@^8.3.0":
-  version "8.3.1"
-  resolved "https://registry.npmjs.org/@types/uuid/-/uuid-8.3.1.tgz"
-  integrity sha512-Y2mHTRAbqfFkpjldbkHGY8JIzRN6XqYRliG8/24FcHm2D2PwW24fl5xMRTVGdrb7iMrwCaIEbLWerGIkXuFWVg==
 
 "@types/yargs-parser@*":
   version "21.0.3"
@@ -2007,13 +1970,6 @@ core-util-is@~1.0.0:
   version "1.0.2"
   resolved "https://registry.npmjs.org/core-util-is/-/core-util-is-1.0.2.tgz"
   integrity "sha1-tf1UIgqivFq1eqtxQMlAdUUDwac= sha512-3lqz5YjWTYnW6dlDa5TLaTCcShfar1e40rmcJVwCBJC6mWlFuj0eCHIElmG1g5kyuJ/GD+8Wn4FFCcz4gJPfaQ=="
-
-cross-fetch@^3.1.5:
-  version "3.1.5"
-  resolved "https://registry.npmjs.org/cross-fetch/-/cross-fetch-3.1.5.tgz"
-  integrity sha512-lvb1SBsI0Z7GDwmuid+mU3kWVBwTVUbe7S0H52yaaAdQOXq2YktTCZdlAcNKFzE6QtRz0snpw9bNiPeOIkkQvw==
-  dependencies:
-    node-fetch "2.6.7"
 
 cross-spawn@^7.0.2, cross-spawn@^7.0.5, cross-spawn@^7.0.6:
   version "7.0.6"
@@ -4107,11 +4063,6 @@ jose@^4.15.9:
   resolved "https://registry.yarnpkg.com/jose/-/jose-4.15.9.tgz#9b68eda29e9a0614c042fa29387196c7dd800100"
   integrity sha512-1vUQX+IdDMVPj4k8kOxgUqlcK518yluMuGZwqlr44FS1ppZB/5GWh4rZG89erpOBOJjU/OBsnCVFfapsRz6nEA==
 
-jose@^4.3.7:
-  version "4.8.3"
-  resolved "https://registry.npmjs.org/jose/-/jose-4.8.3.tgz"
-  integrity sha512-7rySkpW78d8LBp4YU70Wb7+OTgE3OwAALNVZxhoIhp4Kscp+p/fBkdpxGAMKxvCAMV4QfXBU9m6l9nX/vGwd2g==
-
 jose@^6.2.3:
   version "6.2.9"
   resolved "https://registry.yarnpkg.com/jose/-/jose-6.2.9.tgz#344fa11af928f8000a4f81972c4d567d587170f0"
@@ -4288,11 +4239,6 @@ locate-path@^6.0.0:
   integrity sha512-iPZK6eYjbxRu3uB4/WZ3EsEIMJFMqAoopl3R+zuq0UjcAm/MO6KCweDgPfP3elTztoKP3KtnVHxTn2NHBSDVUw==
   dependencies:
     p-locate "^5.0.0"
-
-lodash.clonedeep@^4.5.0:
-  version "4.5.0"
-  resolved "https://registry.npmjs.org/lodash.clonedeep/-/lodash.clonedeep-4.5.0.tgz"
-  integrity "sha1-4j8/nE+Pvd6HJSnBBxhXoIblzO8= sha512-H5ZhCF25riFd9uB5UCkVKo61m3S/xZk1x4wA6yp/L3RFP6Z/eHH1ymQcGLo7J3GMPfm0V/7m1tryHuGVxpqEBQ=="
 
 lodash.memoize@^4.1.2:
   version "4.1.2"
@@ -4609,13 +4555,6 @@ node-exports-info@^1.6.0:
     object.entries "^1.1.9"
     semver "^6.3.1"
 
-node-fetch@2.6.7:
-  version "2.6.7"
-  resolved "https://registry.npmjs.org/node-fetch/-/node-fetch-2.6.7.tgz"
-  integrity sha512-ZjMPFEfVx5j+y2yF35Kzx5sF7kDzxuDj6ziH4FFbOp87zKDZNx8yExJIb05OGF4Nlt9IHFIMBkRl41VdvcNdbQ==
-  dependencies:
-    whatwg-url "^5.0.0"
-
 node-int64@^0.4.0:
   version "0.4.0"
   resolved "https://registry.npmjs.org/node-int64/-/node-int64-0.4.0.tgz"
@@ -4771,9 +4710,9 @@ onetime@^5.1.2:
   dependencies:
     mimic-fn "^2.1.0"
 
-openid-client@^5.1.0:
+openid-client@^5.7.1:
   version "5.7.1"
-  resolved "https://registry.npmjs.org/openid-client/-/openid-client-5.7.1.tgz"
+  resolved "https://registry.yarnpkg.com/openid-client/-/openid-client-5.7.1.tgz#34cace862a3e6472ed7d0a8616ef73b7fb85a9c3"
   integrity sha512-jDBPgSVfTnkIh71Hg9pRvtJc6wTwqjRkN88+gCFtYWrlP4Yx2Dsrow8uPi3qLr/aeymPF3o2+dS+wOpglK04ew==
   dependencies:
     jose "^4.15.9"
@@ -5827,11 +5766,6 @@ toml-eslint-parser@^0.9.0, toml-eslint-parser@^0.9.3:
   dependencies:
     eslint-visitor-keys "^3.0.0"
 
-tr46@~0.0.3:
-  version "0.0.3"
-  resolved "https://registry.npmjs.org/tr46/-/tr46-0.0.3.tgz"
-  integrity sha512-N3WMsuqV66lT30CrXNbEjx4GEwlow3v6rr4mCcv6prnfwhS01rkgyFdjPNBYd9br7LpXV1+Emh01fHnq2Gdgrw==
-
 trim-newlines@^2.0.0:
   version "2.0.0"
   resolved "https://registry.npmjs.org/trim-newlines/-/trim-newlines-2.0.0.tgz"
@@ -6083,11 +6017,6 @@ uuid@^14.0.0:
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-14.0.2.tgz#d5ae03e4db0881c87271f8b0b9bd7312d02c799a"
   integrity sha512-xZe/16rV4aa+HGSOCiY2YeLT1OybRLrrkL/Rqaq7p7GMVXjFh+6wN4oMYgjFmnSnhY8t6Xpdl2l9qmnHYuMHwQ==
 
-uuid@^8.3.1, uuid@^8.3.2:
-  version "8.3.2"
-  resolved "https://registry.npmjs.org/uuid/-/uuid-8.3.2.tgz"
-  integrity sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==
-
 v8-to-istanbul@^9.0.1:
   version "9.0.1"
   resolved "https://registry.yarnpkg.com/v8-to-istanbul/-/v8-to-istanbul-9.0.1.tgz#b6f994b0b5d4ef255e17a0d17dc444a9f5132fa4"
@@ -6129,19 +6058,6 @@ walker@^1.0.8:
   integrity sha512-ts/8E8l5b7kY0vlWLewOkDXMmPdLcVV4GmOQLyxuSswIJsweeFZtAsMF7k1Nszz+TYBQrlYRmzOnr398y1JemQ==
   dependencies:
     makeerror "1.0.12"
-
-webidl-conversions@^3.0.0:
-  version "3.0.1"
-  resolved "https://registry.npmjs.org/webidl-conversions/-/webidl-conversions-3.0.1.tgz"
-  integrity sha512-2JAn3z8AR6rjK8Sm8orRC0h/bcl/DqL7tRPdGZ4I1CjdF+EaMLmYxBHyXuKL849eucPFhvBoxMsflfOb8kxaeQ==
-
-whatwg-url@^5.0.0:
-  version "5.0.0"
-  resolved "https://registry.npmjs.org/whatwg-url/-/whatwg-url-5.0.0.tgz"
-  integrity sha512-saE57nupxk6v3HY35+jzBwYa0rKSy0XR8JSxZPwgLr7ys0IBzhGviA1/TUGJLmSVqs8pb9AnvICXEuOHLprYTw==
-  dependencies:
-    tr46 "~0.0.3"
-    webidl-conversions "^3.0.0"
 
 which-boxed-primitive@^1.1.0, which-boxed-primitive@^1.1.1:
   version "1.1.1"
