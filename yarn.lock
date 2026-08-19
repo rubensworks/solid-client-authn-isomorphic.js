@@ -522,16 +522,24 @@
     lodash.clonedeep "^4.5.0"
     uuid "^8.3.1"
 
-"@inrupt/solid-client-authn-node@^1.12.1":
-  version "1.12.1"
-  resolved "https://registry.npmjs.org/@inrupt/solid-client-authn-node/-/solid-client-authn-node-1.12.1.tgz"
-  integrity sha512-1kUAfEDN8cwb1DF+RuOREck8gz8zEhKJ2xZeaR9mJBFSEnkEPr0MV4r7wWeBVhAE5xWIMkHUKnYlEWD6daxNjg==
+"@inrupt/solid-client-authn-core@^5.0.0":
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/@inrupt/solid-client-authn-core/-/solid-client-authn-core-5.0.0.tgz#e15f5f6630673c2d3418bafbf555567c0e91af96"
+  integrity sha512-KYZCv8IO0ytDy3ApyVhiIsmWJY7Z+AXqmU3F+LtV3DBXxwZ9vF9YK8hOzf0ltPmVtqcf4RrnW5fIEtKmHmjuFQ==
   dependencies:
-    "@inrupt/solid-client-authn-core" "^1.12.1"
-    cross-fetch "^3.1.5"
-    jose "^4.3.7"
-    openid-client "^5.1.0"
-    uuid "^8.3.2"
+    events "^3.3.0"
+    jose "^6.2.3"
+    uuid "^14.0.0"
+
+"@inrupt/solid-client-authn-node@^5.0.0":
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/@inrupt/solid-client-authn-node/-/solid-client-authn-node-5.0.0.tgz#dd5bb75128a4d9cd01727cad9bebfeb45672190b"
+  integrity sha512-+UyG/KSHQPSEyP31g5BjimtEVUH8unlzfqz2F2v4u4ptxbcS8jEuc4bjTHgNMo6XMBiTN8fO0JyAJm6q4WvkpA==
+  dependencies:
+    "@inrupt/solid-client-authn-core" "^5.0.0"
+    jose "^6.2.3"
+    openid-client "^5.7.1"
+    uuid "^14.0.0"
 
 "@inrupt/solid-common-vocab@^1.0.0":
   version "1.0.0"
@@ -4201,6 +4209,11 @@ jose@^4.3.7:
   resolved "https://registry.npmjs.org/jose/-/jose-4.8.3.tgz"
   integrity sha512-7rySkpW78d8LBp4YU70Wb7+OTgE3OwAALNVZxhoIhp4Kscp+p/fBkdpxGAMKxvCAMV4QfXBU9m6l9nX/vGwd2g==
 
+jose@^6.2.3:
+  version "6.2.9"
+  resolved "https://registry.yarnpkg.com/jose/-/jose-6.2.9.tgz#344fa11af928f8000a4f81972c4d567d587170f0"
+  integrity sha512-XrchZOFZUl/T3vTwRe8XK+cJrGtMF4th1ARnDfwbBXFKThGhlsxEE4Zu03AD/bjJSt/9jT/mxrOCkJWOg77aPA==
+
 "js-tokens@^3.0.0 || ^4.0.0", js-tokens@^4.0.0:
   version "4.0.0"
   resolved "https://registry.npmjs.org/js-tokens/-/js-tokens-4.0.0.tgz"
@@ -4843,9 +4856,9 @@ onetime@^5.1.2:
   dependencies:
     mimic-fn "^2.1.0"
 
-openid-client@^5.1.0:
+openid-client@^5.7.1:
   version "5.7.1"
-  resolved "https://registry.npmjs.org/openid-client/-/openid-client-5.7.1.tgz"
+  resolved "https://registry.yarnpkg.com/openid-client/-/openid-client-5.7.1.tgz#34cace862a3e6472ed7d0a8616ef73b7fb85a9c3"
   integrity sha512-jDBPgSVfTnkIh71Hg9pRvtJc6wTwqjRkN88+gCFtYWrlP4Yx2Dsrow8uPi3qLr/aeymPF3o2+dS+wOpglK04ew==
   dependencies:
     jose "^4.15.9"
@@ -6179,7 +6192,12 @@ util-deprecate@^1.0.1, util-deprecate@^1.0.2, util-deprecate@~1.0.1:
   resolved "https://registry.npmjs.org/util-deprecate/-/util-deprecate-1.0.2.tgz"
   integrity "sha1-RQ1Nyfpw3nMnYvvS1KKJgUGaDM8= sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw=="
 
-uuid@^8.3.1, uuid@^8.3.2:
+uuid@^14.0.0:
+  version "14.0.2"
+  resolved "https://registry.yarnpkg.com/uuid/-/uuid-14.0.2.tgz#d5ae03e4db0881c87271f8b0b9bd7312d02c799a"
+  integrity sha512-xZe/16rV4aa+HGSOCiY2YeLT1OybRLrrkL/Rqaq7p7GMVXjFh+6wN4oMYgjFmnSnhY8t6Xpdl2l9qmnHYuMHwQ==
+
+uuid@^8.3.1:
   version "8.3.2"
   resolved "https://registry.npmjs.org/uuid/-/uuid-8.3.2.tgz"
   integrity sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==
