@@ -38,6 +38,7 @@
   "devDependencies": {
     "@rubensworks/eslint-config": "^1.0.0",
     "@types/jest": "^29.0.0",
+    "@types/node": "^26.0.0",
     "@typescript-eslint/eslint-plugin": "^5.0.0",
     "@typescript-eslint/parser": "^5.0.0",
     "eslint": "^7.9.0",
@@ -51,7 +52,7 @@
     "manual-git-changelog": "^1.0.0",
     "pre-commit": "^2.0.0",
     "ts-jest": "^29.0.0",
-    "typescript": "^4.3.5"
+    "typescript": "^6.0.3"
   },
   "jest": {
     "transform": {
